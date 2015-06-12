@@ -18,11 +18,11 @@ To access files do,
 
 .eps files are already included in repo but are replaced when .root files are updated and .py files ran. 
 
+run
 
-Things to Add
+	RunAll.py
 
- - One .py file which runs all other .py's so once .root files are updated only one command needs to be run. 
-
+to run all of the plotting scripts.
 
 
 
