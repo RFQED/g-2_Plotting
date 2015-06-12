@@ -1,12 +1,14 @@
-import os
+import subprocess
 
-os.system("python mtestRecoAnalysis_SiliconRecoPlots.py")
-os.system("python mtestReadoutAnalysis_strawTruthSanityPlots.py")
-os.system("python mtestReadoutAnalysis_strawReadoutSanityPlots.py")
-os.system("python mtestReadoutAnalysis_siliconDigitPlots.py")
-os.system("python mtestRawAnalysis.py")
-os.system("python mtestGunAnalysis_strawTruthSanityPlots.py")
-os.system("python mtestGunAnalysis_siliconTruthSanityPlots.py")
+subprocess.Popen("python mtestRecoAnalysis_SiliconRecoPlots.py", shell=True)
+subprocess.Popen("python mtestReadoutAnalysis_strawTruthSanityPlots.py", shell=True)
+subprocess.Popen("python mtestReadoutAnalysis_strawReadoutSanityPlots.py", shell=True)
+subprocess.Popen("python mtestReadoutAnalysis_siliconDigitPlots.py", shell=True)
+subprocess.Popen("python mtestRawAnalysis.py", shell=True)
+subprocess.Popen("python mtestGunAnalysis_strawTruthSanityPlots.py", shell=True)
+subprocess.Popen("python mtestGunAnalysis_siliconTruthSanityPlots.py", shell=True)
+
+
 
 print "##### All Done #####"
 
